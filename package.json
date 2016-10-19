@@ -1,0 +1,20 @@
+{
+  "name": "express-modify-response",
+  "version": "1.0.0",
+  "description": "middleware that allows you to modify the response sent",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mo22/express-modify-response.git"
+  },
+  "keywords": [ "express", "modify" ],
+  "author": {
+    "name": "Moritz Moeller",
+    "email": "mm@mxs.de"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mo22/express-modify-response/issues"
+  },
+  "homepage": "https://github.com/mo22/express-modify-response#readme"
+}
