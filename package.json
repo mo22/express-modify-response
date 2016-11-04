@@ -1,6 +1,6 @@
 {
   "name": "express-modify-response",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "middleware that allows you to modify the response sent",
   "main": "index.js",
   "repository": {

@@ -43,6 +43,9 @@ module.exports = function expressModifyResponse(checkCallback, modifyCallback)
             }
             var buffer = Buffer.concat(buffers);
             Promise.resolve(modifyCallback(req, res, buffer)).then((result) => {
+                if (typeof result === 'string') {
+                    result = new Buffer(result, 'utf-8');
+                }
                 if (res.getHeader('Content-Length')) {
                     res.setHeader('Content-Length', String(result.length));
                 }
